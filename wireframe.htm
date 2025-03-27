@@ -1,0 +1,67 @@
+<html>
+  <style>
+    body {
+      background-color: black;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    #app {
+        width: 100vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      padding: 0 0 0 0 ;
+    }
+
+    .main {
+      max-width: 1024px;
+      flex: 0 0 auto;
+      width: 100vw;
+      height: 70vh;
+    }
+
+    .introtext {
+      font-size: 50pt;
+      color: orange;
+    }
+  </style>
+  <body>
+    <div id="app">
+      <div class="main">
+        <h1 style="color: #fff; text-align: center;">Find a place for your passion.</h1><br/>
+        <svg viewBox="0 0 100 33">
+          <polygon
+            id="state"
+            points="15,0 100,0 85,33 0,33"
+            fill="#007bff"
+            opacity="0"
+          />
+          <polygon
+            id="westTN"
+            points="15,0 43.33,0 28.33,33 0,33"
+            fill="#666"
+            opacity="1"
+          />
+          <text x="21.665" y="19" fill="#fff" text-anchor="middle" font-size="5" font-family="Arial">Clubs</text>
+          <polygon
+            id="midTN"
+            points="43.33,0 71.67,0 56.67,33 28.33,33"
+            fill="#666"
+            opacity="1"
+          />
+          <text x="50" y="19" fill="#fff" text-anchor="middle" font-size="5" font-family="Arial">College</text>
+          <polygon
+            id="westTN"
+            points="71.67,0 100,0 85,33 56.67,33"
+            fill="#666"
+            opacity="1"
+          />
+          <text x="78.335" y="19" fill="#fff" text-anchor="middle" font-size="5" font-family="Arial">Youth</text>
+        </svg>
+      </div>
+    </div>
+  </body>
+</html>
